@@ -15,7 +15,8 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
-      "@nx-standalone/ng-lib": ["libs/ng-lib/src/index.ts"]
+      "@nx-standalone/ng-lib": ["libs/ng-lib/src/index.ts"],
+      "@nx-standalone/ng-lib/baz": ["libs/ng-lib/baz/src/index.ts"]
     }
   },
   "exclude": ["node_modules", "tmp"]
